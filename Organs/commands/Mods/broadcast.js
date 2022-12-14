@@ -17,7 +17,7 @@ module.exports={
         for (let i of anu) {
             //await sleep(1500)
 
-let txt = `🔰</ _*Nezuko Broadcast*_ >🔰\n\n🍀 *Author:* ${pushName}\n\n💬 *Message:* ${bct}`
+let txt = `🔰</ _*Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ-hanako Broadcast*_ >🔰\n\n🍀 *Author:* ${pushName}\n\n💬 *Message:* ${bct}`
 
 if(/image/.test(mime)) {
 let media = await quoted.download()
