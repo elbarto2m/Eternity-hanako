@@ -18,13 +18,13 @@ const eternitylogogg = "https://i.ibb.co/N2hZQP8/13e13ff7e301144d6da57.jpg"
         
                          
 const lemo = `
-*━『 Support Group Links 』━*
+*━『Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ Support Group Links 』━*
 
 *1) [ Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ ฿𝖊𝖙𝖆 ] :*
-https://chat.whatsapp.com/Ea20XGMkbW35OYiFv4X7ya
+https://chat.whatsapp.com/L1SxWZUcUeqGxKNFWeqBvv
 
 *2) [ Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ ₵𝖆𝖘𝖎𝖓ø ] 🎰 :*
-https://chat.whatsapp.com/J1WfFPXtmzZGXFB59I0ETq
+https://chat.whatsapp.com/Fnop2XkjWhNK9qW2BSMvSc
 `
     await client.sendMessage(m.from,{video:{url:rae}, gifPlayback:true, caption: `*${pushName}* have a look in your DM`},{quoted:m})
   await  client.sendMessage(m.sender,{image:{url:eternitylogogg},caption:lemo},{quoted:m})  
