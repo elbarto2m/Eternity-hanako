@@ -22,7 +22,7 @@ module.exports = {
 				{buttonId: `${prefix}help`, buttonText: {displayText: `help`}, type: 1},]
             let buth={
                 text:`*ℹ️Command Info*\n\n${data.join("\n")}`,
-                footer:"*©Eternity-Team*",
+                footer:"*©Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ-Team*",
                 buttons:buttonss,
                 headerType:1
             }    
@@ -45,7 +45,7 @@ let cm=commands.keys()
             }
             const emo=["📖","🍁","🍀","🌊","🎵","🔞","🎟","♨️","🉐",]
         
-            let txt = `*Kon'nichiwa (｡♡‿♡｡)* ${pushName} Watashiwa *Nezuko Bot*.
+            let txt = `*Kon'nichiwa (｡♡‿♡｡)* ${pushName} Watashiwa *Hanako*.
                        
 🧧 *Prefix :* [ ${prefix} ]
                        
@@ -56,8 +56,8 @@ let cm=commands.keys()
                 .map((cmd) => cmd.name).join(" | ")}\`\`\`\n\n`
         }
         txt += `📗 *Type ${prefix}help <Command-Name> or <Command-Name> --info*\n\n`; 
-        txt += `*©Eternity-Team*`
-    const eternitylogo = 'https://cdn.discordapp.com/attachments/1030916817285296231/1033792220370833509/y2mate.com_-_Nezuko_Edit_floating_480p.mp4'
+        txt += `*©Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ-Team*`
+    const eternitylogo = 'https://www.bing.com/videos/search?q=hanako+anime+edit&&view=detail&mid=FE80255EEDAB49AC4BD1FE80255EEDAB49AC4BD1&&FORM=VRDGAR'
     client.sendMessage(m.from,{video:{url:eternitylogo}, gifPlayback:true, caption:txt},{quoted:m})
         //client.sendMessage(m.from,{text:txt},{quoted:m})
 
