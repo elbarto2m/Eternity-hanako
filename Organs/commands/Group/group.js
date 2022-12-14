@@ -25,7 +25,7 @@ module.exports = {
 ]
 const listMessage = {
   text: "Choose the required setting",
-  footer: "ETERNITY",
+  footer: "Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ",
   title: "",
   buttonText: "settings",
   sections
